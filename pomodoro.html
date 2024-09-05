@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer with Rewards and Shop</title>
+    <link rel="stylesheet" href="pomodoro.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        
+        <div class="break-timer">
+            <h2>Break Timer</h2>
+            <p>Break Time: <span id="break-minutes">5</span> minutes</p>
+            <button id="increment-break">Increase Break Time</button>
+        </div>
+        
+        <div class="reward-system">
+            <h2>Rewards</h2>
+            <p>Points: <span id="points">0</span></p>
+            <p>Completed Sessions: <span id="sessions">0</span></p>
+        </div>
+        
+        <div class="shop">
+            <h2>Shop</h2>
+            <div class="item" data-price="30">
+                <p>Item 1 - 30 Points</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="50">
+                <p>Item 2 - 50 Points</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="100">
+                <p>Item 3 - 100 Points</p>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="pomodo.js"></script>
+</body>
+</html>
+       
